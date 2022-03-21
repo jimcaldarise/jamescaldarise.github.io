@@ -33,7 +33,11 @@ function Footer() {
               _jim.caldarise
             </Link>
           </div>
-          <small class='website-rights'>Created by Jim Caldarise 2022</small>
+          <div class='credits'>
+            <small class='website-rights'>Created by Jim Caldarise 2022</small>
+            <small class='website-rights'>Favicon generated with Favicon.io</small>
+            <small class='website-rights'>Background Video by John Mackintosh from Pexels</small>
+          </div>
         </div>
       </section>
     </div>
