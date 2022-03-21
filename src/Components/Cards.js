@@ -23,7 +23,7 @@ function Cards() {
                 text="A calculator which parses user input using a tokenizer class, employs prefix notation to build binary trees which simplify algebraic equations subsituting user-defined variable values."
                 path="/"/>
                 <CardItem 
-                src="/images/swissrail.jpg"
+                src="/images/swissrail.png"
                 title="Swiss Rail Costs"
                 label="C++"
                 text="A shortest path calculator using Dijkstra's algorithm to approximate the cheapest path between 35 towns and cities in Switzerland (and major international connections). Calculates the lowest cost path and displays the total cost and stops along the way."
