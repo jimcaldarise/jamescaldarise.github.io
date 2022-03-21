@@ -12,7 +12,7 @@
 h1 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 2em;
+  font-size: 48px;
 }
 
 .about-heading {
@@ -27,4 +27,5 @@ h1 {
 .about-text > p {
    margin-bottom: 24px;
    line-height: 1.75rem;
+   font-size: 20px;
 }
