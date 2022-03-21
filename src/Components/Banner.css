@@ -1,0 +1,137 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+   font-size: 20px;
+   scroll-behavior: smooth;
+   background-color: #0B182B;
+   display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+   font-family: "Raleway", Verdana, sans-serif;
+   text-decoration: none;
+   font-weight: 300;
+   color: #00EBDB;
+}
+
+#banner h1, #banner h2, #banner h3, #banner h4 {
+   font-family: "Share Tech Mono", monospace;
+}
+
+#banner .cursor {
+   animation: blink 1s infinite;
+}
+
+.helloworld-container-title, .helloworld-container {
+   background-color: #1F2C40;
+   display: flex;
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+   margin: 0px;
+}
+
+.helloworld-container {
+   flex-flow: column;
+   align-items: flex-start;
+   box-shadow: 0 0 .7vw #E30022;
+   transition: all .2s ease-in-out;
+}
+
+.helloworld-container:hover {
+   transform: scale(1.2);
+}
+
+.helloworld-container-title {
+   width: 40vw;
+   height: 14vw;
+   top: 14vw;
+   left: 10vw;
+   flex-direction: column;
+   align-items: flex-start;
+   box-shadow: 0 0 .7vw #C3C4CF;
+}
+
+#cpp {
+   width: 20vw;
+   height: 18vw;
+   top: 9vw;
+   left: 54vw;
+   justify-content: center;
+}
+
+#python {
+   width: 16vw;
+   height: 13vw;
+   top: 15vw;
+   left: 77vw;
+   border-radius: 50%;
+}
+
+#java {
+   width: 24vw;
+   height: 20vw;
+   top: 32vw;
+   left: 34vw;
+}
+
+#javascript {
+   width: 19vw;
+   height: 17vw;
+   top: 29vw;
+   left: 61vw;
+}
+
+.helloworld-container h3 {
+   margin:.5vw auto 2vw auto;
+   font-size: 2vw;
+}
+
+.helloworld-container h4 {
+   margin: 0 0 0 2vw;
+   font-size: .9vw;
+}
+
+.helloworld-container .tab {
+   margin-left: 3.4vw; 
+}
+
+.helloworld-container .doubletab {
+   margin-left: 4.8vw;
+}
+
+.helloworld-container-title h1, .helloworld-container-title h2 {
+   margin: 0 0 0 2vw;
+}
+
+.helloworld-container-title h1 {
+   font-size: 2.5vw;
+}
+
+.helloworld-container {
+   border-radius: 50%;
+}
+
+#banner {
+   height: 57vw;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: column;
+}
+
+#banner-content {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 75%;
+}

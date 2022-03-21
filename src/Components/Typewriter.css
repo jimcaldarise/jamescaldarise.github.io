@@ -1,0 +1,18 @@
+.typewriter {
+   font: "Share-Tech-Mono", monospace;
+   display: inline-block;
+   border-right: 4px solid #00EBDB;
+}
+
+.typewriter-blink {
+   animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+   0% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+   }
+}
