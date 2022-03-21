@@ -2,7 +2,7 @@
   "name": "site-as-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jimcaldarise.github.io/",
+  "homepage": "https://jimcaldarise.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
