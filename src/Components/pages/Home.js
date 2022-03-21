@@ -9,9 +9,15 @@ function Home () {
    return (
       <>
          <Hero />
-         <Cards />
-         <About />
-         <Footer />
+         <div id="projects">
+             <Cards/>
+         </div>
+         <div id="about">
+            <About/>
+         </div>
+         <div id="contact">
+            <Footer id="contact" />
+         </div>
       </>
    );
 }
