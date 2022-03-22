@@ -1,5 +1,6 @@
 import React from 'react'
 import CardItem from './CardItem'
+import CardItemWithLink from './CardItemWithLink';
 import '../App.css';
 import './Cards.css';
 
@@ -10,12 +11,11 @@ function Cards() {
        <div className='cards__container'>
           <div className='cards__wrapper'>
              <ul className='cards__items'>
-                <CardItem 
-                src="/images/roadtripper.jpg"
+                <CardItemWithLink 
+                src="/images/roadtrippersidebyside.png"
                 title="RoadTripper Playlist"
-                label="JavaScript, JSX, CSS, React, Node.js"
-                text="A playlist maker app which uses Spotify's API to authenticate an account, and search for songs using the user's current location. Capable of adding songs to a playlist and saving that playlist back to the user's account."
-                path="/"/>
+                label="JavaScript, CSS, React, Node.js"
+                text="A playlist maker app using Spotify API to authenticate an account,  Google Maps API to search for songs using the user's current location. Capable of adding songs to a playlist and saving that playlist back to the user's account." />
                 <CardItem 
                 src="/images/calculatorpic.png"
                 title="Symbolic Algebra Calculator"

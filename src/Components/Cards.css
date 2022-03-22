@@ -16,6 +16,7 @@ h3 {
    margin-top: 24px;
    margin-bottom: 24px;
    font-size: 24px;
+   line-height: 3rem;
 }
 
 .cards > h3 {
@@ -33,8 +34,7 @@ h3 > span {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -45,6 +45,21 @@ h3 > span {
 
 .cards__items {
   margin-bottom: 24px;
+}
+
+.cards__button {
+  background-color: #F4C430;
+  width: 50%;
+  align-self: center;
+  text-align: center;
+  margin: 0px 0px 25px;
+  padding: 10px;
+  border-radius: 15px;
+  color:#0B182B;
+}
+
+.cards__button a:visited {
+  color:#1F2C40;
 }
 
 .cards__item {
@@ -85,7 +100,7 @@ h3 > span {
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   color: #0B1820;
   background-color: #F4C430;
@@ -104,8 +119,8 @@ h3 > span {
   width: 100%;
   max-width: 100%;
   height: 100%;
-  max-height: 200px;
-  object-fit: fill;
+
+  object-fit: cover;
   transition: all 0.2s linear;
 }
 
@@ -138,5 +153,21 @@ h3 > span {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+
+  .cards__container {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  .cards__item__text {
+    font-size: 28px;
+  }
+
+  .cards__button {
+    font-size: 32px;
   }
 }
