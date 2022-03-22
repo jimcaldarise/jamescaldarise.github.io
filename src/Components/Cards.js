@@ -31,7 +31,7 @@ function Cards() {
              </ul>
           </div>
        </div>
-       <h3>...and, of course, this very site. Built by me using <span>JavaScript</span>, <span>HTML</span>, <span>CSS</span>, and <span>Node.js</span>.</h3>
+       <h3>...and, of course, this very site. Built by me using <span>ReactJS</span>, <span>CSS</span>, and <span>Node.js</span>.</h3>
     </div>
   )
 }
